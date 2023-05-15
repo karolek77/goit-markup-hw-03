@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
+}
+.container {
   width: 1200px;
 }
 a {
@@ -92,12 +94,12 @@ header {
 
 /* ######### ######## ###### main ###### ######## ######### */
 
-.section-1 {
+.hero {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--background-color);
 }
-.section-2 {
+.advantages-list {
   padding-top: 94px;
 }
 
@@ -174,7 +176,7 @@ header {
   margin: 0;
 }
 /* ######## ######## section 3-4 title ######## ######## */
-.section-3 {
+.area-activity {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -197,7 +199,7 @@ header {
   margin-bottom: 50px;
 }
 /* ######## ######## section 4 title-card ######## ######## */
-.section-4 {
+.team {
   background-color: #f5f4fa;
   padding-bottom: 94px;
   padding-top: 94px;
@@ -237,7 +239,7 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 /* ######### ######## ###### portfolio ###### ######## ######### */
-.section-5 {
+.projects {
   padding-top: 94px;
   padding-bottom: 94px;
 }
