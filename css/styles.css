@@ -4,6 +4,7 @@ body {
 }
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -23,8 +24,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-header {
   border-bottom: 1px solid #ececec;
   padding: 24px 27px 24px 15px;
 }
@@ -99,9 +98,6 @@ header {
   padding-bottom: 94px;
   background-color: var(--background-color);
 }
-.advantages-list {
-  padding-top: 94px;
-}
 
 .head-btn {
   display: flex;
@@ -150,6 +146,7 @@ header {
   margin: 0 auto;
   padding: 0 15px;
   justify-content: space-between;
+  padding-top: 94px;
 }
 .info h4 {
   margin: 0;
@@ -304,6 +301,7 @@ img {
 .bottom-card {
   border: 1px solid #eeeeee;
   border-top: none;
+  padding: 20px 24px 20px 24px;
 }
 .name-project {
   font-weight: 700;
@@ -311,14 +309,14 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   margin: 0;
-  padding-top: 20px;
 }
 .type-of-project {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--color-text);
-  margin-top: 6px;
+  margin-top: 4px;
+  margin-bottom: 0;
 }
 /* ######### ######## ###### footer ###### ######## ######### */
 .foot-link {
